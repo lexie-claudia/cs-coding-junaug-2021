@@ -1,0 +1,258 @@
+<html>
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assignment.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Meta tag for SEO and Favicon-->
+    <meta name="description content=" A website for University of Exeter alumni students, especially those based in the
+        MENA region where they can meet fellow alumni at netowrking events and share employability solutions>
+    <link rel="icon" href="./favicon.ico">
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col md-8">
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+                            <img src="./ExeForever.jpeg" class="exelogo" alt="exelogo">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    News
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <li><a class="dropdown-item" href="#">Latest News</a></li>
+                                    <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Career Support</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Hero -->
+    <!--carousel will come here START -->
+
+    <div class="container-fluid carousel-holder no-padding">
+        <div class="col-lg-12 no-padding"></div>
+        <div class="id carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000"
+            data-wrap="true">
+            <!-- Indicators -->
+
+            <ol class="carousel-indicators">
+                <li button data-target="#carousel-example-generic" data-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></li>
+                <li button data-target="#carousel-example-generic" data-slide-to="1" aria-label="Slide 2"></li>
+                <li button data-target="#carousel-example-generic" data-slide-to="2" aria-label="Slide 3"></li>
+            </ol>
+
+            <!--Wrapper for the slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./welcomealumni.jpeg" class="d-block w-100" alt="welcomealumni">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Welcome!</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./starrysky.jpeg" class="d-block w-100" alt="starrysky">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./lads-holiday.jpeg" class="d-block w-100" alt="lads-holiday">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Cards -->
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Community</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Moving abroad made easy</h6>
+                        <p class="card-text">With our alumni based around the world you can find any of our <a
+                                href="https://www.exeter.ac.uk/alumnisupporters/networks/international/"
+                                class="card-link">Global Volunteers</a> on hand to make you feel welcome.</p>
+                        <div class="class inner-card-text">
+                            <div class="row card-text">
+                                <a href="https://www.exeter.ac.uk/alumnisupporters/networks/alumnae/"
+                                    class="card-link">MENA
+                                    Committee</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Benefits</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Employability and fundraising</h6>
+                        <p class="card-text">We recently hosted our first <a
+                                href="https://www.youtube.com/watch?v=xwyZSOhybRo" class="card-link">Employability
+                                Event </a>and aim to use our
+                            platform as a place to share job opportunities but also a place to share our fundraising
+                            experiences </p>
+                        <a href="https://www.exeter.ac.uk/alumnisupporters/" class="card-link">Fundraising</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Join Us</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Connect with us directly</h6>
+                        <p class="card-text">We are always looking for guest speakers or passionate volunteers. For all
+                            your MENA local events please follow
+                            us on our groups. </p>
+                        <a href="https://www.facebook.com/UoEalumniMENA" class="card-link">Facebook</a>
+                        <a href="https://www.linkedin.com/groups/9017620/" class="card-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Media Section -->
+    <div class="container py-5 mb-2">
+        <hr style="margin: 80px 0px 80px 0px" />
+        <div class="row">
+            <div class="col-12 col-lg-7">
+
+                <h3 class="display-4 mt-5">THE MENA REGION</h2>
+                    <p>We have seen the MENA region change and grow on a daily basis infront of our eyes. In Dubai we
+                        have seen this futuristic world, with all its bright lights, vibrant food and sunny holiday
+                        destination become our home. Culturally, the Emirati Culture has a lot of depth to it with its
+                        stories of Pearl Diving and Bedouin lifestyle in the desert it has its charm. You too can
+                        <a href="https: //u.ae/en/about-the-uae/culture">EXPLORE.</a>
+                    </p>
+
+            </div>
+            <div class="col-12 col-lg-5">
+                <img src="./dubai1.jpeg" width="100%" />
+            </div>
+        </div>
+        <hr style="margin: 80px 0px 80px 0px" />
+
+        <div class="row">
+
+            <div class="col-12 col-lg-5">
+                <img src="./guy-studying.jpeg" width="100%" />
+            </div>
+
+            <div class="col-12 col-lg-7">
+
+                <h3 class="display-4 mt-5">Want to take on a new challenge?</h2>
+                    <p>University of Exeter Alumni Scholarship now available for postgraduate study. Find all you need
+                        to make a change in your life <a href="https://www.exeter.ac.uk/alumnisupporters/benefits/lifelonglearning/
+                        class=" card-link">here.</a>
+                    </p>
+            </div>
+        </div>
+
+        <hr style="margin: 80px 0px 80px 0px" />
+        <div class="row">
+            <div class="col-12 col-lg-7">
+
+                <h3 class="display-4 mt-5">Get in touch to find alumni near you</h2>
+                    <p>The University of Exeter is a truly international organisation, with alumni volunteer and network
+                        groups spanning the globe. We have well over 20,000 alumni located outside of the UK, many of
+                        whom meet to renew friendships, organise or take part in networking events and strengthen ties
+                        with the University. Please send all enquiries to: alumni@exeter.ac.uk
+
+                    </p>
+
+            </div>
+            <div class="col-12 col-lg-5">
+                <img src="./alumnimap.png" width="100%" />
+            </div>
+        </div>
+        <hr style="margin: 80px 0px 80px 0px" />
+    </div>
+
+    <div class="footer">
+        <div class="row">
+            <div class="col md-8">
+                <div class="footer-links-now">
+                    <a href="https://instagram.com/exeter_alumni?utm_medium=copy_link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/UoEalumniMENA"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/groups/9017620/"><i class="fab fa-linkedin"></i></a>
+                    <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                </div>
+                <div class="footer-copyright">
+                    This footer is made with &lt;3 <i class="fas fa-heart"></i> at Astrolabs
+                </div>
+            </div>
+</body>
+
+</html>
